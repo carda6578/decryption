@@ -1,0 +1,21 @@
+The enclosed files include:
+1- a cipher text message (unknown_msg.dat) which is encrypted using a shift cipher with unknown shift. 
+2- an Excel file with the histogram data for the three popular languages English, French and German. 
+The historagm is generated using a sample text from each of these languages and shows the frequency of 
+occurance of each letter from the sample text. We are assuming that the histograms are a fair representation 
+of the frequency of occurance of letter in the language. 
+3- chiper.h is also included that you can use to encrypt and decrypt the message. For decryption, use encrypt 
+function with shift of (26-shift). You can also use a different decryption function of your choice. Make 
+sure to submit the function you used for decryption.
+Task:
+Your task in this worksheet is to identify the language the original message was written in and the shift 
+that was used to encrypt the message. Include the first paragraph of the decrypted message in your report.
+
+Submit report (1 page max):
+1- one page report containing
+   a. histogram of unknown_msg.dat that you used to identify (match) a language histogram
+   b. the matching language histogram
+   c. encrypt function (if you used a different function)
+   d. explain why you think the two histograms match
+   e. what was the shift used to encrypt the message
+   f. first paragraph from the unknown_msg.dat, decrypted.
